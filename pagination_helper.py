@@ -42,7 +42,7 @@ class PaginationHelper:
         # the current smaller box is full, you move on to the next smaller box (lines 49-50).  as long 
         # as I keep removing the first element in the collection list I don't have to actually iterate 
         # through the it.  once the collection list is empty, the sorting is done and the loop stops (line 46).
-        # i now have a nice sorted dictionary i can use elsewhere.
+        # I now have a nice sorted dictionary I can use elsewhere.
         while len(coll_list) > 0:
             page_dict[i].append(coll_list[0])
             coll_list.remove(coll_list[0])
