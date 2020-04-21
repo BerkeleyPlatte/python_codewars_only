@@ -60,8 +60,10 @@ def simplify(poly):
             for each_var, each_sum in sums_dict.items():
                 if each_tup[1] == each_var and k == 'pos':
                     each_sum += int(each_tup[0])
+                else:
+                    pass
                     
                 
     print(sums_dict)
 
-simplify(string1)  
+simplify(string1)   
